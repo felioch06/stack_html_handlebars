@@ -1,0 +1,4 @@
+{
+  "watch": ["pages/", "partials/", "assets/"],
+  "ext": "js, css, hbs"
+}

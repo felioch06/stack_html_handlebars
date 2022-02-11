@@ -4,7 +4,7 @@ const fs = require("fs");
   try {
     let argv = process.argv;
 
-    if(!argv[2]) throw new Error('Missing arguments!');
+    if (!argv[2]) throw new Error("Missing arguments!");
 
     let fileName = argv[2].split("=")[1];
     let layoutName = argv[3] ? argv[3].split("=")[1] : "main";
@@ -22,4 +22,4 @@ const fs = require("fs");
     console.error(error.message);
     return false;
   }
-})()
+})();
