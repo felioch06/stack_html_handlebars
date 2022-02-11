@@ -1,1 +1,31 @@
-/* Css */
+/* General */
+
+* {
+  font-family: "Roboto";
+}
+
+/* Menu */
+
+.menu {
+  width: 100%;
+  background-color: #aeaeae;
+}
+
+.menu__nav {
+  width: 100%;
+}
+
+.menu__ul {
+  display: flex;
+}
+
+.menu__item {
+  margin: 1rem;
+  list-style: none;
+}
+
+.menu__item-a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
